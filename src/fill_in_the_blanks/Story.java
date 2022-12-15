@@ -19,6 +19,8 @@ public class Story {
         System.out.println("Give number of coffee cups: ");
         number = scanner.next().toUpperCase();
 
+        scanner.close();
+
         System.out.println("On a " + adjective + " " + season + " day," + "\n"
                 + "I drink a minium of " + number + " cups of coffee.");
     }
